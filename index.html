@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Para Vivian ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="background"></div>
+
+<main id="app">
+
+    <section id="countdown-screen" class="screen active">
+
+        <div class="fade-block">
+
+            <h1 class="title">
+                Para Vivian
+                <span>❤️</span>
+            </h1>
+
+            <p class="subtitle">
+                Uma noite especial.
+            </p>
+
+            <p class="description">
+                Cada segundo nos aproxima de um momento inesquecível.
+            </p>
+
+        </div>
+
+        <div id="countdown">
+
+            <div class="time-box">
+                <span id="days">00</span>
+                <small>Dias</small>
+            </div>
+
+            <div class="time-box">
+                <span id="hours">00</span>
+                <small>Horas</small>
+            </div>
+
+            <div class="time-box">
+                <span id="minutes">00</span>
+                <small>Minutos</small>
+            </div>
+
+            <div class="time-box">
+                <span id="seconds">00</span>
+                <small>Segundos</small>
+            </div>
+
+        </div>
+
+        <div id="lock-container">
+
+            <div id="lock">
+
+                🔒
+
+            </div>
+
+            <p id="status">
+                Algumas coisas só acontecem no momento certo.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section id="intro-screen" class="screen hidden">
+
+        <div class="message">
+
+            <h2>Meu amor...</h2>
+
+            <p>
+                Me empresta só dois minutinhos da sua atenção?
+            </p>
+
+            <p>
+                Prometo não atrapalhar o seu dia.
+            </p>
+
+            <p>
+                Só coloca um pouquinho o volume...
+            </p>
+
+            <button id="startButton">
+
+                Estou pronta ❤️
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <section id="voice-screen" class="screen hidden">
+
+        <img
+            src="assets/voces.jpg"
+            id="photoCouple"
+            alt="Nós dois">
+
+        <audio id="voice" preload="auto">
+            <source src="assets/voz.mp3" type="audio/mpeg">
+        </audio>
+
+    </section>
+
+    <section id="harry-screen" class="screen hidden">
+
+        <img
+            src="assets/harry.jpg"
+            id="harryPhoto"
+            alt="Harry Styles">
+
+        <audio id="music" preload="auto">
+            <source src="assets/adore-you.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="finalText">
+
+            <h2>
+                Agora vai viver o seu sonho.
+            </h2>
+
+            <p>
+                Eu te amo.
+            </p>
+
+            <p>
+                Obrigado por me deixar fazer parte de um momento tão importante da sua vida.
+            </p>
+
+            <p>
+                Você merece viver tudo isso.
+            </p>
+
+            <h3>
+                — Benício ❤️
+            </h3>
+
+        </div>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
